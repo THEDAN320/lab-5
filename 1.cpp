@@ -12,16 +12,11 @@ void areth(int* arr) {
 }
 
 void math_wait(int* arr) {
-    int x;
+    double x = 0, z = 2.2;
     for (int i = 0; i < 10; i++) {
-        for (int j = 0; j < 10; j++) {
-            int z = 0;
-            if (arr[i] != arr[j] && z == 0) {
-                x[i] = arr[i];
-                z++;
-            }
-        }
+        x += arr[i] - z;
     }
+    double x 
 }
 
 
@@ -31,4 +26,5 @@ int main()
 
     areth(arr);
 }
+
 
